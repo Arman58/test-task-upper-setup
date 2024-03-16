@@ -1,0 +1,27 @@
+
+.searchInput {
+    padding: 0 16px;
+    margin-right: 10px;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.searchInputContainer {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+
+.hiddenButton {
+    display: none;
+}

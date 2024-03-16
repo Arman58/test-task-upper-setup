@@ -1,0 +1,39 @@
+.movieCard {
+    width: 245px;
+    position: relative;
+    background-color: #fff;
+}
+
+.movieCardImage {
+    width: 245px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #6627FF;
+}
+
+.movieCardContent {
+    padding: 10px;
+}
+
+.movieCardTitle,
+.movieCardYear,
+.movieCardImdbID {
+    margin-bottom: 5px;
+}
+
+.placeholderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 270px;
+    border: 1px solid #6627FF;
+    border-radius: 5px;
+}
+
+.placeholderImage {
+    width: 152px;
+    height: 130px;
+    object-fit: cover;
+}
